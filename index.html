@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="1.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <h1>To-Do</h1>
+      <form method="post"  class="form" id="form">
+        <input
+          type="input"
+          name=""
+          id="input"
+          placeholder="Enter Item"
+          class="input"
+        />
+
+        <button type="button" class="add" id="add">+Add Item</button>
+      </form>
+
+      <input
+        type="text"
+        name=""
+        id="filter"
+        placeholder="Filter Item..."
+        class="filter"
+      />
+      <hr style="margin-bottom: 20px" />
+      <div class="Item-main">
+        <ul class="ul" id="ul">
+          <!-- <li class="li">
+            apple <button><i class="fa-solid fa-square-xmark"></i></button>
+          </li>
+
+          <li class="li">
+            apple <button></button>
+             <i class="fa-solid fa-square-xmark"></i> --
+          </li>-->
+        </ul>
+      </div>
+      <hr style="margin-bottom: 20px" />
+      <!-- <input type="button" value="-- Clear All--" class="clear" id="clear" /> -->
+      <button type="button" class="clear" id="clear">-- Clear All--</button>
+    </div>
+  </body>
+</html>
